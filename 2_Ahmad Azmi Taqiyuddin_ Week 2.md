@@ -5,7 +5,7 @@ Berdasarkan Chen et al. (2025), Paris polyphilla (dikenal sebagai “Chonglou”
 
 Metabolit PPI diidentifikasi melalui PubChem dan diprediksi targetnya menggunakan TargetNet + UniMapping. Daftar gen HCC diperoleh dari OMIM dan GeneCards, kemudian diiriskan dengan target senyawa untuk memperoleh target potensial yang relevan. Protein-Protein Interaction Network (PPI) dari target irisan dikonstruksi melalui STRING (confidence ≥ 0,700) dan dianalisis di Cytoscape untuk visualisasi. Sementara itu, analisis pengayaan Gene Ontology dan KEGG pathway dilakukan terhadap target menggunakan STRING (FDR < 0,05), kemudian hasilnya diintegrasikan dengan jaringan senyawa-target dan PPI menjadi satu visualisasi akhir menggunakan fitur Merge Network pada Cytoscape.
 
-![Teks Alt](Gambar1.png)
+![Teks Alt](Diagram.png)
 Gambar 1 Irisan gen target HCC dan Polyphillin I
 
 Hasil analisis menggunakan diagram Venn (Gambar 1) berhasil mengidentifikasi 29 gen irisan antara target penyakit HCC dan target molekuler dari senyawa Polyphillin I. Termuan ini mengindikasikan potensi metabolit tersebut dalam memodulasi berbagai jalur biologis yang berperan langsung dalam patofisiologi HCC. Seluruh gen irisan tersebut kemudian dimasukkan ke dalam platform STRING dan dianalisis menggunakan Cytohubba untuk menentukan 10 hub gene utama berdasarkan nilai degree (Tabel 1). Interaksi antara gen-gen tersebut ditunjukkan pada Gambar 2, direpresentasikan oleh 29 node dan 37 edge.
