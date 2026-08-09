@@ -11,7 +11,8 @@ Hasil analisis menggunakan diagram Venn (Gambar 1) berhasil mengidentifikasi 29 
 
 Tabel 1 Nilai degree, betweenness centrality, dan closeness centrality dari 10 hub gen teratas hasil analisis jaringan PPI
 
-![Teks Alt](STRING.png) Gambar 2 Jaringan-jaringan Protein-Protein Interaction (PPI) dari gen irisan hasil konstruksi STRING
+![Teks Alt](STRING.png)
+Gambar 2 Jaringan-jaringan Protein-Protein Interaction (PPI) dari gen irisan hasil konstruksi STRING
 
 Nilai degree menggambarkan jumlah koneksi langsung satu protein dengan protein lainnya. Makin tinggi nilai degree makin banyak protein lain yang berinteraksi dengannya. Betweenness centrality mengukur seberapa sering suatu protein berperan sebagai penghubung antar-jalur sinyal seluler. Closeness centrality menunjukkan seberapa dekat posisi suatu protein terhadap protein dalam jaringan, mencerminkan kecepatan penyebaran sinyal molekuler.
 
