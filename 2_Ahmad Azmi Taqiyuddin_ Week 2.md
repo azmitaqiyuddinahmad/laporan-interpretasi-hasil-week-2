@@ -5,13 +5,16 @@ Berdasarkan Chen et al. (2025), Paris polyphilla (dikenal sebagai “Chonglou”
 
 Metabolit PPI diidentifikasi melalui PubChem dan diprediksi targetnya menggunakan TargetNet + UniMapping. Daftar gen HCC diperoleh dari OMIM dan GeneCards, kemudian diiriskan dengan target senyawa untuk memperoleh target potensial yang relevan. Protein-Protein Interaction Network (PPI) dari target irisan dikonstruksi melalui STRING (confidence ≥ 0,700) dan dianalisis di Cytoscape untuk visualisasi. Sementara itu, analisis pengayaan Gene Ontology dan KEGG pathway dilakukan terhadap target menggunakan STRING (FDR < 0,05), kemudian hasilnya diintegrasikan dengan jaringan senyawa-target dan PPI menjadi satu visualisasi akhir menggunakan fitur Merge Network pada Cytoscape.
 
-![Teks Alt](Diagram.png) Gambar 1 Irisan gen target HCC dan Polyphillin I
+![Teks Alt](DiagramH.png) 
+Gambar 1 Irisan gen target HCC dan Polyphillin I
 
 Hasil analisis menggunakan diagram Venn (Gambar 1) berhasil mengidentifikasi 29 gen irisan antara target penyakit HCC dan target molekuler dari senyawa Polyphillin I. Termuan ini mengindikasikan potensi metabolit tersebut dalam memodulasi berbagai jalur biologis yang berperan langsung dalam patofisiologi HCC. Seluruh gen irisan tersebut kemudian dimasukkan ke dalam platform STRING dan dianalisis menggunakan Cytohubba untuk menentukan 10 hub gene utama berdasarkan nilai degree (Tabel 1). Interaksi antara gen-gen tersebut ditunjukkan pada Gambar 2, direpresentasikan oleh 29 node dan 37 edge.
 
 Tabel 1 Nilai degree, betweenness centrality, dan closeness centrality dari 10 hub gen teratas hasil analisis jaringan PPI
+![Teks Alt](Tabel.png)
 
 ![Teks Alt](STRING.png)
+
 Gambar 2 Jaringan-jaringan Protein-Protein Interaction (PPI) dari gen irisan hasil konstruksi STRING
 
 Nilai degree menggambarkan jumlah koneksi langsung satu protein dengan protein lainnya. Makin tinggi nilai degree makin banyak protein lain yang berinteraksi dengannya. Betweenness centrality mengukur seberapa sering suatu protein berperan sebagai penghubung antar-jalur sinyal seluler. Closeness centrality menunjukkan seberapa dekat posisi suatu protein terhadap protein dalam jaringan, mencerminkan kecepatan penyebaran sinyal molekuler.
@@ -19,7 +22,8 @@ Nilai degree menggambarkan jumlah koneksi langsung satu protein dengan protein l
 Pada Tabel 1, protein HSP90AA1, MTOR, NFKB1, HDAC1, dan CHUK mencatatkan nilai
 degree, betweenness centrality, dan closeness centrality yang paling menonjol dibandingkan protein lainnya. Nilai degree yang tinggi, HSP90AA1 memiliki 8 koneksi dan 4 lainnya masing-masing memiliki 4 koneksi, menunjukkan bahwa gen-gen ini memiliki tingkat interaktivitas fisik terbanyak dalam jaringan PPI. Selain itu, nilai betweenness centrality dan closeness centrality yang dominan menandakan bahwa kelima protein tersebut berfungsi sebagai hub utama yang mengoordinasikan lalu lintas sinyal molekuler. Dengan demikian, gen-gen ini berpotensi menjadi target utama yang menentukan efektivitas dan mekanisme kerja Polyphillin I dalam meredam HCC.
 
-![Teks Alt](Ganbar.png) 
+![Teks Alt](image.png) 
+
 Gambar 3 Visualisasi jaringan interaksi senyawa-target-pathway
 
 Gambar 3 merupakan visualisasi jaringan yang menghubungkan senyawa Polyphillin I, gen targen hasil irisan, dan KEGG pathway. Hasil analisis ini menunjukkan bahwa PPI bekerja secara multi- target melalui jalur biologis utama yang saling berkaitan, yaitu Pathways in cancer, PI3K-Akt signalling pathway, dan Hepatitis B. Visualisasi ini juga memperlihatkan bahwa dari 29 gen irisan awal, sebanyak 21 gen target terhubung langsung dengan jalur-jalur utama tersebut dalam jaringan. Ditinjau dari sisi target molekuler, HSP90AA1, MTOR, NFKB1, HDAC1, CHUK, dan kelompok CDK merupakan gen dengan jumlah interaksi terbanyak. Hal ini sejalan dengan profil topologi jaringan PPI pada Tabel 1.
@@ -36,7 +40,4 @@ Secara keseluruhan, temuan enrichment analysis memperkuat bukti bahwa senyawa Po
 Chen, Y., Wang, Q., Bian, S., Dong, J., Xiong, J., & Le, J. (2025). Exploration of The Mechanism of Polyphyllin I Against Hepatocellular Carcinoma Based on Network Pharmacology, Molecular Docking and Experimental Validation. Discov Onc. 16:941 doi:10.1007/s12672-025-02341-5
 
 Diagram Workflow
-![Teks Alt](Tam4.png)
-
-# Diagram Workflow
-
+![Teks Alt](tam4.png)
