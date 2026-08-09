@@ -3,6 +3,7 @@
 
 Berdasarkan Chen et al. (2025), Paris polyphilla (dikenal sebagai “Chonglou” dalam pengobatan tradisional Cina) menghasilkan metabolit utama Polyphillin I (PPI) yang berpotensi sebagai antitumor hepatocellular carcinoma (HCC). Mengingat terapi konvensional HCC yang sering terhalang oleh resistensi obat dan efek samping berat, pendekatan network pharmacology digunakan untuk memetakan interaksi multitarget senyawa ini. Analisis ini bertujuan mengidentifikas target genetik utama dari PPI dan mengevaluasi jalur signalisasinya dalam menghambat perkembangan HCC.
 
+
 Metabolit PPI diidentifikasi melalui PubChem dan diprediksi targetnya menggunakan TargetNet + UniMapping. Daftar gen HCC diperoleh dari OMIM dan GeneCards, kemudian diiriskan dengan target senyawa untuk memperoleh target potensial yang relevan. Protein-Protein Interaction Network (PPI) dari target irisan dikonstruksi melalui STRING (confidence ≥ 0,700) dan dianalisis di Cytoscape untuk visualisasi. Sementara itu, analisis pengayaan Gene Ontology dan KEGG pathway dilakukan terhadap target menggunakan STRING (FDR < 0,05), kemudian hasilnya diintegrasikan dengan jaringan senyawa-target dan PPI menjadi satu visualisasi akhir menggunakan fitur Merge Network pada Cytoscape.
 
 Gambar 1 Irisan gen target HCC dan Polyphillin I
